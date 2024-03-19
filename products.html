@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Treats Bakery</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: #0beaea;
+    color: #160e0e;
+    padding: 1rem;
+    text-align: center;
+    position: inherit;
+    margin: auto;
+}
+nav a {
+    text-decoration: none;
+    color: #181616;
+    padding: 10px;
+    margin: 0 15px; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #181616;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product-item img {
+    max-width: 50%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #0beaea;
+    color: #030404;
+    text-align: center;
+    padding: 1rem 0;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header class="fixed">
+        <h1>
+           <center><font size="7" face="Forte">Estel Baking</font></center>
+        </h1>
+        <nav id="container">
+
+           <font size="3"><a href="shop.html">Home</a>
+    <!-- <section id="home">
+        <h1>Welcome to Estel baking</h1>
+        <p>Delicious homemade cakes, cookies, and pastries.</p>
+    </section> -->
+    <!-- <header>
+        <nav>
+            <ul> -->
+                <!-- <li><a href="#home">Home</a></li> -->
+                <a href="products.html">Products</a>&nbsp;&nbsp;
+                <a href="about.html">About</a>
+                <a href="contacts.html">Contact</a>
+                <a href="log in.html">log in</a>
+           
+    </font>
+    </nav>
+    </header>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="cake.jpg" alt="Cake">
+                <h3>Chocolate Cake</h3>
+                <p>$15.00</p>
+                 <button>Add to cart</button>
+            </div>
+            <div class="product-item">
+                <img src="COOkies (2).jpg" alt="Cookies">
+                <h3>Assorted Cookies</h3>
+                <p>$8.00</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="product-item">
+                <img src="pastry.jpg" alt="Pastry">
+                <h3>Fruit Pastry</h3>
+                <p>$10.00</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sweet Treats Bakery</p>
+    </footer>
+</body>
+</html>
