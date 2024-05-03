@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Treats Bakery</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: #0beaea;
+    color: #160e0e;
+    padding: 1rem;
+    text-align: right;
+    position: inherit;
+    margin: auto;
+}
+nav a {
+    text-decoration: none;
+    color: #181616;
+    padding: 10px;
+    margin: 0 15px; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #181616;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product-item img {
+    width: 200px;
+    height:200px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #0beaea;
+    color: #030404;
+    text-align: center;
+    padding: 1rem 0;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+}
+.search {
+            width: 20%;
+            height: 10%;
+            float: right;
+        }
+
+
+.ftcnt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ftsec {
+    flex: 1;
+    margin-right: 20px;
+}
+    </style>
+</head>
+<body>
+    <header class="fixed">
+        <h1>
+           <center><font size="7" face="Forte">welcome to Estel Baking</font></center>
+        </h1>
+        <nav id="container">
+
+           <!-- <font size="3"><a href="shop.html">Home</a> -->
+    <!-- <section id="home">
+        <h1>Welcome to Estel baking</h1>
+        <p>Delicious homemade cakes, cookies, and pastries.</p>
+    </section> -->
+    <!-- <header>
+        <nav>
+            <ul> -->
+                <!-- <li><a href="#home">Home</a></li> -->
+                <font size="3"><a href="shop.html">Home</a>
+                    <a href="product.html">Products</a>
+                    <a href="About.html">About</a>
+                    <a href="#ft">Contact us</a>
+                    <a href="log in.html">log in</a>
+                    <form class="search">
+                        <input type="search" placeholder="Search" aria-label="Search">
+                        <button type="submit">Search</button>
+                    </form>
+           
+    </font>
+    </nav>
+    </header>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <a href="description.html"><img src="cake.jpg" alt="Cake"></a>
+                <h3>Chocolate Cake</h3>
+                <p>$15.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+                
+            </div>
+            <div class="product-item">
+                <a href="description2.html"><img src="COOkies (2).jpg" alt="Cookies"></a>
+                <h3>Assorted Cookies</h3>
+                <p>$8.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="description3.html"><img src="pastry.jpg" alt="Pastry"></a>
+                <h3>Fruit Pastry</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="description4.html"><img src="zyro-image_36_1800x1800.webp" alt="Pastry"></a>
+                <h3>strwbery Cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+               <a href="description5.html"><img src="Sprinkle-Funfetti-Cake-1200x1414.jpg" alt="Pastry"></a>
+                <h3>sprinkle cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+               <a href="description6.html"><img src="My-best-Vanilla-Cake_9-SQ.webp" alt="Pastry"></a>
+                <h3>vanila cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="description7.html"><img src="rafaelo.jpg" alt="Pastry"></a>
+                <h3>rafaelo cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+               <a href="description8.html"><img src="BW1A4089-2.jpg" alt="Pastry"></a>
+                <h3>vanila strawbery cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+             <a href="description9.html"><img src="wedding cake.jpg" alt="Pastry"></a>
+                <h3>wedding cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="description10.html"><img src="sorry.jpg" alt="Pastry"></a>
+                <h3>sorry cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="description11.html"> <img src="doll cake.jpg" alt="Pastry"></a>
+                <h3>Doll cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+
+            </div>
+            <div class="product-item">
+                <a href="description12.html"> <img src="rainbow cake.jpg" alt="Pastry"></a>
+                <h3>rainbow cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+                <a href="description13.html"> <img src="black cake.jpg" alt="Pastry"></a>
+                <h3>Chocochip cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+                <a href="description14.html"><img src="candle cake.jpg" alt="Pastry"></a>
+                <h3>candle cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+                <a href="description15.html"><img src="rose milk.jpeg" alt="Pastry"></a>
+                <h3>rose milk cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+               <a href="description16.html"> <img src="gold cake.jpg" alt="Pastry"></a>
+                <h3>gold cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+                <a href="description17.html"><img src="red wellvat.jpeg" alt="Pastry"></a>
+                <h3>red wellvat </h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+               <a href="description18.html"> <img src="radish.jpg" alt="Pastry"></a>
+                <h3>strawbery vanila cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+                <a href="description19.html"><img src="independance.jpg" alt="Pastry"></a>
+                <h3>independance day cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+                <a href="description20.html"><img src="Pineapple.jpg" alt="Pastry"></a>
+                <h3>pineapple cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+                <a href="description21.html"><img src="birthday-cake.jpg" alt="Pastry"></a>
+                <h3>birthday cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+               <a href="description22.html"> <img src="fudge.jpeg" alt="Pastry"></a>
+                <h3>fudge cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+               <a href="description23.html"> <img src="tiles cake.jpeg" alt="Pastry"></a>
+                <h3>tiles cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+
+            <div class="product-item">
+                <a href="description24.html"><img src="nevi.jpeg" alt="Pastry"></a>
+                <h3>creamy cake</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+            <div class="product-item">
+               <a href="description25.html"> <img src="Chocolate-Gateau.jpg" alt="Pastry"></a>
+                <h3>Chocolate-Gateau</h3>
+                <p>$10.00</p>
+                <a href="payment.html"><button>Add to cart</button></a>
+            </div>
+        </div>
+    </section>
+    <section>
+    <!-- <div class="pagination">
+        <a href="productpage1.html" class="active">1</a>
+        <a href="productpage2.html">2</a>
+        <a href="productpage3.html">3</a>
+        <a href="productpage4.html">4</a>
+        <a href="productpage5.html">5</a>
+        <a href="productpage6.html">6</a>
+        <a href="productpage2.html">Next</a>
+    </div> -->
+    
+</section>
+    <footer>
+        <footer id="ft">
+            <div class="block">
+                <div class="ftcnt">
+                    <!-- Footer content goes here -->
+                    <div class="ftsec about">
+                        <h2>About Us</h2>
+                        <p>An online bakery can be a great way of selling baked goods to a wider audience.
+                            Here, we'll explain how you can build a website in order to share your baked creations with the world. Home baking is a big business. </p>
+                    </div>
+                    <div class="ftsec contact">
+                        <h2>Contact Us</h2>
+                        <a href="#"> <p>Email: estelbaking@gmail.com</p>
+                            <p>Phone:03019592720</p></a>
+                    </div>
+                    <div class="ftsec social">
+                        <h2>Follow Us</h2>
+                        <a href="#"> <p>www.estelbaking.facebook.com</p></a>
+                        <a href="#"> <p>www.estelbaking.instagram.com</p></a>
+                        <a href="#"> <p>www.estelbaking.linkedin.com</p></a>
+                        <!-- Social media icons or links go here -->
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2024 Sweet Treats Bakery</p>
+    </footer>
+</body>
+</html>

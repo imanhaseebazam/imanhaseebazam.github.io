@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Description</title>
+  <style>
+      body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+nav a {
+    text-decoration: none;
+    color: #181616;
+    padding: 10px;
+    margin: 0 15px; 
+}
+
+header {
+    background-color: #0beaea;
+    color: #160e0e;
+    padding: 1rem;
+    text-align:right;
+    position: inherit;
+    margin: auto;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #181616;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product-item img {
+    max-width: 50%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+footer
+{
+    background-color: #0beaea;
+    color: #030404;
+    text-align: center;
+    padding: 1rem 0;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+
+}
+
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the page */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+.product-container {
+    max-width: 800px; /* Limits the width of the container */
+    margin: 20px auto; /* Centers the container horizontally */
+    background: white; /* White background for the product details */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the container */
+    padding: 20px; /* Padding inside the container */
+    display: flex; /* Aligns children elements (image and details) in a row */
+    align-items: center; /* Vertically centers the children in the container */
+}
+
+.product-image {
+    width: 40%; /* Sets the width of the product image to 40% of the container */
+    height: auto; /* Maintains aspect ratio of the image */
+    margin-right: 20px; /* Adds space between the image and the details */
+}
+
+.product-details {
+    width: 60%; /* Sets the width of the details section to 60% of the container */
+}
+
+.product-title {
+    font-size: 24px; /* Larger text for the product name */
+    margin: 0 0 10px 0; /* Space below the title */
+}
+
+.product-price {
+    font-size: 20px; /* Size of the price text */
+    color: #E53E3E; /* Red color for price */
+    margin: 0 0 10px 0; /* Space below the price */
+}
+
+.product-description {
+    font-size: 16px; /* Size of the description text */
+    line-height: 1.5; /* Makes lines a bit more readable */
+    margin: 0; /* Removes margin */
+}
+
+.search {
+            width: 20%;
+            height: 10%;
+            float: right;
+        }
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.product-sizes {
+    margin: 10px 0;
+}
+
+.product-sizes h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+}
+
+.product-sizes label {
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+button:hover {
+  background-color: #45a049;
+}
+
+.ftcnt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ftsec {
+    flex: 1;
+    margin-right: 20px;
+}
+  </style>
+</head>
+<body>
+    <header class="fixed">
+        <h1>
+           <center><font size="7" face="Forte">Estel Baking</font></center>
+        </h1>
+        <nav id="container">
+
+          <font size="3"><a href="shop.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="#ft">Contact us</a>
+            <a href="log in.html">log in</a>
+            <form class="search">
+                <input type="search" placeholder="Search" aria-label="Search">
+                <button type="submit">Search</button>
+            </form>
+    </font>
+    </nav>
+    </header>
+   
+        <div class="product-container">
+            <img src="rainbow cake.jpg" alt="Product Image" class="product-image">
+            <div class="product-details">
+                <h1 class="product-title">rainbow cake</h1>
+                <p class="product-price">$29.99</p>
+                <p class="product-description">A rainbow cake is a feast for the eyes and the taste buds. Imagine a cake sliced down the middle, revealing a captivating spectrum of colors within. Each layer boasts a vibrant hue – from a deep, majestic purple to a sunshine yellow, with pops of blue, green, orange, and red in between. These colorful layers are typically made from a light and fluffy vanilla cake batter, tinted with food coloring to achieve the rainbow effect.
+
+                    The beauty doesn't stop at the layers. The cake is often frosted with a smooth, cloud-like blanket of vanilla buttercream, creating a delightful contrast with the vibrant colors. Sometimes, bakers add playful swirls of frosting or a dazzling drip cascading down the sides.  For an extra touch of whimsy, rainbow sprinkles adorn the top, hinting at the colorful surprise within.
+                    
+                    Cutting into a rainbow cake is a delightful surprise. Each slice reveals a mesmerizing kaleidoscope of colors, guaranteed to bring a smile to anyone's face. But the magic doesn't end there. Beneath the vibrant facade lies a moist and flavorful cake, often boasting a classic vanilla taste that complements the sweetness of the frosting.
+                    
+                    Rainbow cake is a versatile dessert, perfect for birthday parties, baby showers, or any occasion that calls for a touch of cheer. It's a showstopper on any dessert table, guaranteed to be a conversation starter and a crowd-pleaser.  Beyond its playful appearance, the cake itself is delicious, offering a delightful combination of fluffy texture and sweet flavor. So, next time you're looking for a dessert that's as fun as it is delicious, consider the magic of a rainbow cake.</p>
+                     <!-- <div class="product-sizes">
+                        <h3>Select Size:</h3>
+                        <label><input type="radio" name="size" value="small"> Small</label>
+                        <label><input type="radio" name="size" value="medium" checked> Medium</label>
+                        <label><input type="radio" name="size" value="large"> Large</label>
+                      </div> -->
+            </div>
+        </div>
+    
+  <footer>
+    <p>&copy; 2024 Sweet Treats Bakery</p>
+    <footer id="ft">
+      <div class="block">
+          <div class="ftcnt">
+              <!-- Footer content goes here -->
+              <div class="ftsec about">
+                  <h2>About Us</h2>
+                  <p>An online bakery can be a great way of selling baked goods to a wider audience.
+                      Here, we'll explain how you can build a website in order to share your baked creations with the world. Home baking is a big business. </p>
+              </div>
+              <div class="ftsec contact">
+                  <h2>Contact Us</h2>
+                  <a href="#"> <p>Email: estelbaking@gmail.com</p>
+                      <p>Phone:03019592720</p></a>
+              </div>
+              <div class="ftsec social">
+                  <h2>Follow Us</h2>
+                  <a href="#"> <p>www.estelbaking.facebook.com</p></a>
+                  <a href="#"> <p>www.estelbaking.instagram.com</p></a>
+                  <a href="#"> <p>www.estelbaking.linkedin.com</p></a>
+                  <!-- Social media icons or links go here -->
+              </div>
+          </div>
+      </div>
+</footer>
+</body>
+</html>

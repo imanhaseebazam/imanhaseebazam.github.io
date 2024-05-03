@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Description</title>
+  <style>
+      body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+nav a {
+    text-decoration: none;
+    color: #181616;
+    padding: 10px;
+    margin: 0 15px; 
+}
+
+header {
+    background-color: #0beaea;
+    color: #160e0e;
+    padding: 1rem;
+    text-align:right;
+    position: inherit;
+    margin: auto;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #181616;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product-item img {
+    max-width: 50%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+footer
+{
+    background-color: #0beaea;
+    color: #030404;
+    text-align: center;
+    padding: 1rem 0;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+
+}
+
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the page */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+.product-container {
+    max-width: 800px; /* Limits the width of the container */
+    margin: 20px auto; /* Centers the container horizontally */
+    background: white; /* White background for the product details */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the container */
+    padding: 20px; /* Padding inside the container */
+    display: flex; /* Aligns children elements (image and details) in a row */
+    align-items: center; /* Vertically centers the children in the container */
+}
+
+.product-image {
+    width: 40%; /* Sets the width of the product image to 40% of the container */
+    height: auto; /* Maintains aspect ratio of the image */
+    margin-right: 20px; /* Adds space between the image and the details */
+}
+
+.product-details {
+    width: 60%; /* Sets the width of the details section to 60% of the container */
+}
+
+.product-title {
+    font-size: 24px; /* Larger text for the product name */
+    margin: 0 0 10px 0; /* Space below the title */
+}
+
+.product-price {
+    font-size: 20px; /* Size of the price text */
+    color: #E53E3E; /* Red color for price */
+    margin: 0 0 10px 0; /* Space below the price */
+}
+
+.product-description {
+    font-size: 16px; /* Size of the description text */
+    line-height: 1.5; /* Makes lines a bit more readable */
+    margin: 0; /* Removes margin */
+}
+
+.search {
+            width: 20%;
+            height: 10%;
+            float: right;
+        }
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.product-sizes {
+    margin: 10px 0;
+}
+
+.product-sizes h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+}
+
+.product-sizes label {
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+button:hover {
+  background-color: #45a049;
+}
+
+.ftcnt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ftsec {
+    flex: 1;
+    margin-right: 20px;
+}
+  </style>
+</head>
+<body>
+    <header class="fixed">
+        <h1>
+           <center><font size="7" face="Forte">Estel Baking</font></center>
+        </h1>
+        <nav id="container">
+
+          <font size="3"><a href="shop.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="#ft">Contact us</a>
+            <a href="log in.html">log in</a>
+            <form class="search">
+                <input type="search" placeholder="Search" aria-label="Search">
+                <button type="submit">Search</button>
+            </form>
+    </font>
+    </nav>
+    </header>
+   
+        <div class="product-container">
+            <img src="sorry.jpg" alt="Product Image" class="product-image">
+            <div class="product-details">
+                <h1 class="product-title">sorry cake</h1>
+                <p class="product-price">$10.00</p>
+                <p class="product-description">The "sorry cake" isn't just a dessert, it's a sweet gesture baked with regret and a sprinkle of hope. There are two main interpretations of this unique cake:
+
+                    The Disappearing Delight:  This take on the sorry cake comes from grandmothers and seasoned bakers. It's a simple, yet irresistible recipe, often a bar cake made with pantry staples. The name stems from how quickly it vanishes – a delicious consequence of its irresistible taste. If you miss a slice, well, you'll be sorry!
+                    
+                    The Apology Offering:  This sorry cake is a more modern concept.  Here, the baker personalizes a cake, often choosing a flavor or design the recipient loves, with a heartfelt message of apology piped on top.  Chocolate for a broken promise? Vanilla with a buttercream "I'm sorry" for a forgotten anniversary? The possibilities are endless.
+                    
+                    Beyond the Recipe:  The beauty of the sorry cake lies in its message. It's a way to express remorse in a non-confrontational way. The act of baking itself can be therapeutic, allowing the baker to channel their apology into a thoughtful creation.  For the recipient, the cake becomes a visible symbol of regret and a chance to move forward with a slice of sweetness.
+                    
+                    Taking it a Step Further:  Sorry cakes can be customized to truly express your apology.  Consider incorporating elements that resonate with the recipient's interests.  Maybe it's their favorite flavor, a design that reflects a shared hobby, or even a playful message that acknowledges the situation with a touch of humor (depending on the severity of the transgression, of course!).
+                    
+                    A Bite-Sized Peace Offering:  The sorry cake is a delicious reminder that sometimes, the best apologies are wrapped in frosting and love. It's a way to say sorry in a heartfelt, memorable way, proving that even the sweetest amends can come from the oven.  So, next time you have something to apologize for, consider whipping up a sorry cake – it might just be the sweetest way to say you're truly sorry.</p>
+                     <!-- <div class="product-sizes">
+                        <h3>Select Size:</h3>
+                        <label><input type="radio" name="size" value="small"> Small</label>
+                        <label><input type="radio" name="size" value="medium" checked> Medium</label>
+                        <label><input type="radio" name="size" value="large"> Large</label>
+                      </div> -->
+            </div>
+        </div>
+    
+  <footer>
+    <p>&copy; 2024 Sweet Treats Bakery</p>
+    <footer id="ft">
+      <div class="block">
+          <div class="ftcnt">
+              <!-- Footer content goes here -->
+              <div class="ftsec about">
+                  <h2>About Us</h2>
+                  <p>An online bakery can be a great way of selling baked goods to a wider audience.
+                      Here, we'll explain how you can build a website in order to share your baked creations with the world. Home baking is a big business. </p>
+              </div>
+              <div class="ftsec contact">
+                  <h2>Contact Us</h2>
+                  <a href="#"> <p>Email: estelbaking@gmail.com</p>
+                      <p>Phone:03019592720</p></a>
+              </div>
+              <div class="ftsec social">
+                  <h2>Follow Us</h2>
+                  <a href="#"> <p>www.estelbaking.facebook.com</p></a>
+                  <a href="#"> <p>www.estelbaking.instagram.com</p></a>
+                  <a href="#"> <p>www.estelbaking.linkedin.com</p></a>
+                  <!-- Social media icons or links go here -->
+              </div>
+          </div>
+      </div>
+</footer>
+</body>
+</html>
