@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /shop/
+Allow: /home/
+Allow: /product/
+Allow: /about/
+Allow: /contact us/
+Allow: /log in/
